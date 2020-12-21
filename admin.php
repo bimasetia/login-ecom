@@ -34,12 +34,12 @@
         </form>
       </li>
 
-      <li><a class="active" href="index.html"><i class="material-icons pink-item">dashboard</i>Dashboard</a></li>
+      <li><a class="active" href="admin.php"><i class="material-icons pink-item">dashboard</i>Dashboard</a></li>
       <li><div class="divider"></div></li>
 
       <li><a class="subheader">Management</a></li>
-      <li><a href="#"><i class="material-icons pink-item">thumbs_up_down</i>Name Approvals</a></li>
-      <li><a href="#"><i class="material-icons pink-item">note_add</i>News Comments</a></li>
+      <li><a href="names.php"><i class="material-icons pink-item">thumbs_up_down</i>Contract Approvals</a></li>
+      <li><a href="comments.php"><i class="material-icons pink-item">note_add</i>Proposal Comments</a></li>
 
       <li class="no-padding">
         <ul class="collapsible collapsible-accordion">
@@ -47,9 +47,9 @@
             <a class="collapsible-header">User Management<i class="material-icons pink-item">person</i></a>
             <div class="collapsible-body">
               <ul>
-                <li><a href="#">User Detail</a></li>
-                <li><a href="#">Recent Users</a></li>
-                <li><a href="#">Reports</a></li>
+                <li><a href="userdetails.php">User Detail</a></li>
+                <li><a href="recentusers.php">Recent Users</a></li>
+                <li><a href="reports.php">Reports</a></li>
               </ul>
             </div>
           </li>
@@ -62,7 +62,6 @@
             <a class="collapsible-header">Account<i class="material-icons pink-item">arrow_drop_down</i></a>
             <div class="collapsible-body">
               <ul>
-                <li><a href="#">Edit Profile</a></li>
                 <li><a href="logout.php">Log Out</a></li>
               </ul>
             </div>
